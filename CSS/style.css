@@ -1,0 +1,76 @@
+@font-face
+{
+    font-family: "Neon80s";
+    src: url("../FONT/Neon.ttf") format('truetype');
+}
+
+
+
+body
+    {
+    background-image:url(../IMAGES/fond\ ecran\ ok\ html\ png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Neon80s";
+    }
+
+header
+    {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;    
+    background-image:url(../IMAGES/bandeau\ test\ 11.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    height: 300px;
+    }
+
+.container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+.item
+    {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.8;
+    width: 600px;
+    }
+
+nav {
+    display: flex;
+    align-self: flex-end;
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style:none;
+}    
+li
+    {
+        background-size: cover;
+        padding: 20px;
+        margin: 2px;
+        background: #f47e0b;
+    }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+    
